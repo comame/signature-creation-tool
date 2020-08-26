@@ -110,9 +110,9 @@ const App = () => {
             <label>LinkedIn: <input id='linkedin' placeholder='プロフィールページ URL'/></label>
         </form>
         <div>
-            <div id='display' ref={ displayElementRef }>
+            <div id='display' className='base' ref={ displayElementRef }>
                 { inputs.imageUri && <img className='profile-image' src={ inputs.imageUri } /> }
-                <div>
+                <div className='right'>
                     { inputs.title && <p className='title'>{ inputs.title }</p> }
                     { inputs.name && <h2 className='name'>{ inputs.name }</h2> }
                     <span>
