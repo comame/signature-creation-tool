@@ -82,7 +82,7 @@ const App = () => {
 
     const copyAsHtml = () => {
         if (displayElementRef.current == null) return
-        const text = displayElementRef.current.innerHTML + document.getElementById('signature-style')?.outerHTML
+        const text = displayElementRef.current.outerHTML + document.getElementById('signature-style')?.outerHTML
 
         const node = document.createElement('div')
         node.textContent = text
