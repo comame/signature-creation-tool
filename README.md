@@ -1,7 +1,7 @@
 # signature-creation-tool (署名作成ツール)
 
-## Demo
-https://comame.github.io/signature-creation-tool/dist/
+竹中文人さんのアイデア、ご協力により作成しました。https://www.iscle.com/web-it/g-drive/gmail/make-mail-signature.html で公開されています。
+
 
 ## Deployment
 Copy `dist/` directory into your server.
